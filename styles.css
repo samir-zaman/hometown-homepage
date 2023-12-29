@@ -1,0 +1,104 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#middle, #bottom{
+    color: #1D3557;
+}
+
+/* TOP SECTION */
+#top {
+    background-image: url("images/torshov-image.png");
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center
+}
+
+#visit{
+    background-color: #1D3557;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 3px 5px; 
+}
+
+#town-description{
+    background: #457B9D;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    max-width: 412px;
+    margin-top: 0;
+}
+
+/* MIDDLE SECTION */
+#middle {
+    background: #F1FAEE;
+}
+
+#middle-content-wrapper {
+    padding: 15px; 
+}
+
+#activities-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.activity {
+    max-width: 198px;
+}
+
+.town-icons{
+    border-radius: 50%;
+}
+
+/* BOTTOM SECTION */
+#bottom {
+    max-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    background: #A8DADC;
+    padding: 22px;
+    border-bottom: solid 7px #1D3557
+}
+
+.italic{
+    font-style: italic;
+}
+
+#tourGuide{
+    width: 180px;
+    height: 248.67px;
+}
+
+
+
+
+
+/* 
+Notes:
+-Use display to change the layout of sections of a page. Do not attempt to use
+display to change the spacing/centerin of text inside a background. Use 
+padding instead. Also, no need to specify dimensions of text background - use
+padding to accomplish this, too. 
+
+-
+*/
